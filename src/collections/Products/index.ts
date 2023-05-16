@@ -72,6 +72,11 @@ export const ProductFields: CollectionConfig['fields'] = [
             },
             blocks: [CallToAction, Content, MediaBlock, Archive],
           },
+          {
+            name: 'price',
+            label: 'Price',
+            type: 'number',
+          },
         ],
       },
     ],

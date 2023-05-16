@@ -90,4 +90,13 @@ export default buildConfig({
     }),
     payloadCloud(),
   ],
+  localization: {
+    locales: [
+      'en',
+      'es',
+      'de',
+    ],
+    defaultLocale: 'en',
+    fallback: true,
+  },
 })
