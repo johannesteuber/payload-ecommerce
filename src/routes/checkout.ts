@@ -81,6 +81,7 @@ export const checkout: PayloadHandler = async (req, res): Promise<void> => {
               customer: stripeCustomerID,
               price: price.id,
               invoice: invoice.id,
+              quantity: item.quantity,
             })
           }
 
